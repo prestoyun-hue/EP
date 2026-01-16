@@ -24,7 +24,7 @@ const App: React.FC = () => {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div 
             className="flex items-center gap-3 select-none cursor-pointer" 
-            onClick={(e) => scrollToTop(e as any)}
+            onClick={scrollToTop}
           >
             {/* ESTC Logo - Removed skew and italic for a straight look */}
             <span className="font-black text-3xl tracking-tighter text-eset-teal" style={{ fontFamily: 'Arial, sans-serif' }}>
